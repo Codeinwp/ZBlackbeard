@@ -65,7 +65,12 @@ Header
 .header {
 	min-height: 0;
 }
-
+.header {
+	background: rgba(51,67,70, 0.5) !important;
+}
+.intro-text {
+	color: #FFF !important;
+}
 
 /*--------------------------------------------------------------
 Content
@@ -83,8 +88,6 @@ h2.white-text {
 	background: #202728 !important;
 	color: #c0cdcf !important;
 }
-
-
 .red-btn {
 	border-radius: 1px;
     border-width: 2px;

@@ -11,3 +11,9 @@ function theme_enqueue_styles() {
 	wp_enqueue_style( 'zerif-child-style', get_stylesheet_uri(), array('zerif_style'), 'v1' );
 
 }
+
+function remove_style_child(){
+	remove_action('wp_print_scripts','zerif_php_style');	
+}
+
+add_action( 'wp_enqueue_scripts', 'remove_style_child', 100 );
