@@ -16,3 +16,4 @@ along with this program.
 ZBlackbeard WordPress Theme bundles the following third-party resources:
 
 	* Source of bg.jpg image: https://download.unsplash.com/photo-1415889678233-eb900aeee9e1
+	* Source of product-bg.png image: https://download.unsplash.com/photo-1429117257281-73c32df3dcdc
