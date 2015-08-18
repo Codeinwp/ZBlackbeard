@@ -1,10 +1,10 @@
 /*
  Theme Name:   ZBlackbeard
- Description:  ZBlackbeard is a modern responsive Wordpress Theme. It's perfect for web agencies, digital studios, corporate, product showcase, personal and business portfolio.
+ Description:  ZBlackbeard is a modern responsive WordPress Theme. It's perfect for web agencies, digital studios, corporate, product showcase, personal and business portfolio.
  Author:       Themeisle
  Author URI:   https://themeisle.com
  Template:     zerif-lite
- Version:      1.0.6
+ Version:      1.0.7
  License:      GNU General Public License version 2
  License URI:  license.txt
  Text Domain:  zblackbeard
@@ -259,9 +259,30 @@ body, button, input, select, textarea {
 .comment-reply-link:hover {
 	background: rgba(234,71,71,1) !important;
 }
-.widget_search input {
+.widget_search input, .entry-content .search-form input[type="search"] {
 	background: rgba(51,67,70, 0.8);
 	color: #FFF !important; 
+}
+.entry-content .search-form input[type="search"] {
+	width: 83%;
+	padding: 12px 15% 12px 2%;
+}
+.entry-content .search-form {
+	position: relative;
+	width: auto;
+	float: left;
+}
+.entry-content .search-form input[type="submit"] {
+	display: block;
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	background: url(images/search_icon1.png) no-repeat center center;
+	text-indent: -99999999999px;
 }
 .company-details {
 	color: #c0cdcf !important;
@@ -292,7 +313,9 @@ body, button, input, select, textarea {
 	background: rgba(51, 67, 70, 1) !important;
 }
 
-
+.skills input {
+	color: #c0cdcf !important;
+}
 /*--------------------------------------------------------------
 Footer
 --------------------------------------------------------------*/
