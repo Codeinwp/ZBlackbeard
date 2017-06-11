@@ -35,7 +35,7 @@ function zblackbeard_customize_register( $wp_customize ) {
 			$wp_customize,
 			'ti-notify',
 			array(
-				'text'     => sprintf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','zblackbeard' ), sprintf( '<a href="https://wp-themes.com/zerif-lite/" target="_blank">%s</a>', 'Zerif Lite' ), sprintf( '<a href="https://wp-themes.com/hestia/" target="_blank">%s</a>', 'Hestia' ) ),
+				'text'     => sprintf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','zblackbeard' ), sprintf( '<a href="https://wordpress.org/themes/zerif-lite/" target="_blank">%s</a>', 'Zerif Lite' ), sprintf( '<a href="https://wordpress.org/themes/hestia/" target="_blank">%s</a>', 'Hestia' ) ),
 				'priority' => 0,
 			)
 		)
@@ -61,7 +61,7 @@ function zblackbeard_admin_notice() {
 
 	if ( is_admin() && ( 'themes.php' == $pagenow ) && isset( $_GET['activated'] ) ) {
 		echo '<div class="updated notice is-dismissible"><p>';
-		printf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','zblackbeard' ), sprintf( '<a href="https://wp-themes.com/zerif-lite/" target="_blank">%s</a>', 'Zerif Lite' ), sprintf( '<a href="https://wp-themes.com/hestia/" target="_blank">%s</a>', 'Hestia' ) );
+		printf( __( 'This child theme is not maintained anymore, consider using the parent theme %1$s or check-out our latest free one-page theme: %2$s.','zblackbeard' ), sprintf( '<a href="https://wordpress.org/themes/zerif-lite/" target="_blank">%s</a>', 'Zerif Lite' ), sprintf( '<a href="https://wordpress.org/themes/hestia/" target="_blank">%s</a>', 'Hestia' ) );
 		echo '</p></div>';
 	}
 }
