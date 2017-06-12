@@ -41,7 +41,9 @@ function zblackbeard_customize_register( $wp_customize ) {
 		)
 	);
 
-	$wp_customize->add_setting( 'zblackbeard-notify') ;
+	$wp_customize->add_setting( 'zblackbeard-notify', array(
+	    'sanitize_callback' => 'esc_html',
+    ));
 
 	$wp_customize->add_control( 'zblackbeard-notify', array(
 		'label'    => __( 'Notification', 'zblackbeard' ),
