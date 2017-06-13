@@ -3,7 +3,7 @@
  Description:  ZBlackbeard is a modern responsive WordPress Theme. It's perfect for web agencies, digital studios, corporate, product showcase, personal and business portfolio.
  Author:       Themeisle
  Author URI:   https://themeisle.com
- Template:     zerif-pro
+ Template:     zerif-lite
  Version:      1.0.10
  License:      GNU General Public License version 2
  License URI:  license.txt
@@ -67,7 +67,7 @@ Header
 	min-height: 0;
 }
 .header {
-	background: rgba(51,67,70, 0.5) !important;
+	background: rgba(51,67,70, 0.5);
 }
 .intro-text {
 	color: #FFF;
@@ -93,7 +93,7 @@ h2.white-text {
 	border-radius: 1px;
     border-width: 2px;
 	border-style: solid;
-    border-color: #ea4747 !important;
+    border-color: #ea4747;
     position: relative;
     background: rgba(234,71,71,0.4);
 }
@@ -114,11 +114,11 @@ h2.white-text {
 .green-btn:hover {
     border-width: 2px;
 	border-style: solid;
-    border-color: #3bbbd2 !important;
+    border-color: #3bbbd2;
     background: rgba(59,187,210,1);
 }
 .intro-text {
-	background: rgba(51,67,70,0.3) !important;
+	background: rgba(51,67,70,0.3);
 	padding: 15px 0;
 }
 .testimonial {
@@ -138,10 +138,10 @@ body{
 }
 .entry-title:before {
 	content: "";
-	background: #ea4747 !important;
+	background: #ea4747;
 }
 .entry-title a:hover{
-	color: #ea4747 !important;
+	color: #ea4747;
 }
 .entry-title, 
 .entry-title a, 
@@ -151,10 +151,10 @@ body{
 }
 .widget .widget-title:before, .entry-title:before {
 	content: "";
-	background: #3bbbd2 !important;
+	background: #3bbbd2;
 }
 body, button, input, select, textarea {
-	color: #334346 !important;
+	color: #334346;
 }
 /* Selection colours (easy to forget) */
 ::selection {
@@ -215,7 +215,7 @@ body, button, input, select, textarea {
 	color: #334346;
 }
 .focus-box .service-icon {
-	border: 10px solid rgba(255, 255, 255, 0.1) !important;
+	border: 10px solid rgba(255, 255, 255, 0.1);
 }
 .red-border-bottom:before {
 	background: #ea4747;
@@ -235,33 +235,33 @@ body, button, input, select, textarea {
 	background: #ea4747;
 }
 .copyright {
-	background: rgba(0,0,0,0.3) !important;
+	background: rgba(0,0,0,0.3);
 }
 
 .comments-area input[type="text"],
 .comments-area input[type="email"],
 .comments-area input[type="url"],
 .comments-area textarea {
-	background: rgba(51,67,70, 0.8) !important;
-	color: #FFF !important;
+	background: rgba(51,67,70, 0.8);
+	color: #FFF;
 }
 .comment-form #submit,
 .comment-reply-link {
-	color: #fff !important;
+	color: #fff;
 	border-radius: 1px;
 	border-width: 2px;
 	border-style: solid;
 	border-color: #ea4747;
 	position: relative;
-	background: rgba(234,71,71,0.8) !important;
+	background: rgba(234,71,71,0.8);
 }
 .comment-form #submit:hover,
 .comment-reply-link:hover {
-	background: rgba(234,71,71,1) !important;
+	background: rgba(234,71,71,1);
 }
 .widget_search input, .entry-content .search-form input[type="search"] {
 	background: rgba(51,67,70, 0.8);
-	color: #FFF !important; 
+	color: #FFF;
 }
 .entry-content .search-form input[type="search"] {
 	width: 83%;
@@ -297,13 +297,13 @@ body, button, input, select, textarea {
 	opacity: 0.8;
 }
 .our-team .row > div .red-border-bottom:before {
-	background: #ea4747 !important;
+	background: #ea4747;
 }
 .team-member .social-icons ul li a {
 	background: none;
 }
 .team-member .social-icons ul li a:hover {
-	color: #3bbbd2 !important;
+	color: #3bbbd2;
 }
 .social-icons .widget li:before {
 	content: '';
